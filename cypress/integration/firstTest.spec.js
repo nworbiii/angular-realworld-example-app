@@ -78,12 +78,6 @@ describe('Test with backend', () => {
     })
 
     it('should delete a new article in the global feed', () => {
-        const userCredentials = {
-            "user": {
-                "email": "nworb86@gmail.com",
-                "password": "CypressTest1"
-            }
-        }
         const title = "Request from API " + Date.now()
 
         const bodyRequest = {
@@ -95,9 +89,7 @@ describe('Test with backend', () => {
             }
         }
 
-        cy.request('POST', 'https://conduit.productionready.io/api/users/login', userCredentials)
-        .its('body').then((body) => {
-            const token = body.user.token
+        cy.get('@token').then((token) => {
 
             cy.request({
                 url: 'https://conduit.productionready.io/api/articles/',
