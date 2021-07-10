@@ -1,0 +1,39 @@
+{
+  "articles": [
+    {
+      "title": "Agilizei Titulo",
+      "slug": "agilizei-titulo-we23v2",
+      "body": "Voluptatem ea dolor sit iusto iure dolor dolorem. Ut animi architecto. Aliquam neque perferendis debitis aut rerum. Unde esse odio quaerat ea. Et perferendis accusamus et consequuntur iusto vel rerum neque. Vitae et qui.",
+      "createdAt": "2021-07-09T03:27:35.077Z",
+      "updatedAt": "2021-07-09T03:27:35.077Z",
+      "tagList": [],
+      "description": "Cypress",
+      "author": {
+        "username": "Agilizei jmiguel",
+        "bio": null,
+        "image": "https://static.productionready.io/images/smiley-cyrus.jpg",
+        "following": false
+      },
+      "favorited": false,
+      "favoritesCount": 1
+    },
+    {
+      "title": "This is a title",
+      "slug": "this-is-a-title-ljsxzb",
+      "body": "This is a body of the Article",
+      "createdAt": "2021-07-09T03:23:49.745Z",
+      "updatedAt": "2021-07-09T03:23:49.745Z",
+      "tagList": [],
+      "description": "This is a description",
+      "author": {
+        "username": "nworb86",
+        "bio": null,
+        "image": "https://static.productionready.io/images/smiley-cyrus.jpg",
+        "following": false
+      },
+      "favorited": false,
+      "favoritesCount": 5
+    }
+  ],
+  "articlesCount": 500
+}

@@ -1,0 +1,19 @@
+{
+  "article": {
+    "title": "This is a title",
+    "slug": "this-is-a-title-ljsxzb",
+    "body": "This is a body of the Article",
+    "createdAt": "2021-07-09T03:23:49.745Z",
+    "updatedAt": "2021-07-09T03:23:49.745Z",
+    "tagList": [],
+    "description": "This is a description",
+    "author": {
+      "username": "nworb86",
+      "bio": null,
+      "image": "https://static.productionready.io/images/smiley-cyrus.jpg",
+      "following": false
+    },
+    "favorited": true,
+    "favoritesCount": 1
+  }
+}
