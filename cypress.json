@@ -3,5 +3,18 @@
     "ignoreTestFiles": "**/examples/*",
     "viewportHeight": 1080,
     "viewportWidth": 1920,
-    "video": false
+    "video": false,
+    "reporter": "cypress-multi-reporters",
+        "reporterOptions": {
+            "configFile": "reporter-config.json"
+        },
+    "env": {
+        "username": "nworb86@gmail.com",
+        "password": "CypressTest1",
+        "apiUrl": "https://conduit.productionready.io/"
+    },
+    "retries": {
+        "runMode": 2,
+        "openMode": 1
+    }
 }
